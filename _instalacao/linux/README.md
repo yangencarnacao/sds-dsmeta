@@ -106,6 +106,14 @@ sudo chmod -R ugo+rw /home/user/Workspaces/ws-sts
 ```
 snap install postman
 ```
+No Linux Mint 20 para reativar o suporte para Snaps:
+```
+sudo rm /etc/apt/preferences.d/nosnap.pref
+```
+```
+sudo apt install snapd
+```
+fonte: https://sempreupdate.com.br/como-reativar-o-suporte-para-snaps-no-linux-mint-20/
 
 ## Heroku CLI
 
